@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+#section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    padding: 50px;
+}
+#image1{
+height: 500px;
+}
+#text_div, #image_div{
+    width: 50%;
+}
+#text_div{
+    padding: 0 0 0 30px;
+}
+.text_div_h1{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_div_h4{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text_div_p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+#colorfull_name{
+    color: orange;
+}
+#colorfull_name:hover{
+    color: deeppink;
+    transition: 1;
+}
+button{
+    padding: 13px 40px;
+    font-size: 20px;
+    background-image: linear-gradient(deeppink,orange);
+    color:white;
+    border: none;
+    border-radius: 15px;
+    }
+button:hover{
+    background-image: linear-gradient(orange, deeppink);
+    transition: 1s;
+}
